@@ -48,7 +48,7 @@ var count = prompt(
 // And going above 100 might trigger whatsapp spam detections
 if (!count || isNaN(count) || count < 0 || count > 100) {
   alert(
-    "Please enter only NUMBER between 0 and 100. \nYou can re-run the script now."
+    "Please enter only NUMBER between 0 and 10000000. \nYou can re-run the script now."
   );
 } else {
   // Get the message to spam
